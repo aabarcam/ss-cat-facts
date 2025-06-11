@@ -16,6 +16,6 @@ services:
       - "8080:8080"
     volumes:
       - type: bind
-        source: ./frontend/
-        target: /frontend
+        source: ./frontend/src
+        target: /frontend/src
       - /frontend/node_modules

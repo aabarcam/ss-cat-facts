@@ -1,14 +1,14 @@
 services:
-  # backend:
-  #   build:
-  #     context: ./backend
-  #     dockerfile: dev.dockerfile
-  #   volumes:
-  #     - type: bind
-  #       source: ./backend/app
-  #       target: /rails/app
-  #   ports:
-  #     - "3000:3000"
+  backend:
+    build:
+      context: ./backend
+      dockerfile: dev.dockerfile
+    volumes:
+      - type: bind
+        source: ./backend/app
+        target: /rails/app
+    ports:
+      - "3000:3000"
     
   frontend:
     build: ./frontend

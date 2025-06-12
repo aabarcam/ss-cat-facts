@@ -1,0 +1,4 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/aabarcam/ss-cat-facts-backend.git
+    ignore = dirty
